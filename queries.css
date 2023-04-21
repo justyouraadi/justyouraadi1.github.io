@@ -1,0 +1,73 @@
+/* ********navbar css started ************ */
+@media only screen and (max-width: 600px) {
+
+    navbar{
+        position: relative;
+    }
+
+    nav{
+        /* display: flex; */
+        flex-direction:column;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+    li{
+        margin-bottom: 10px;
+    }
+
+}
+/* *********navbar css end *****************/
+
+
+/* ********* hero section css start *********** */
+
+@media only screen and (max-width:600px) {
+    .hero-bg{
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    /* .hero-bg{
+        height: 50vh;
+    } */
+
+    .hero-p{
+        font-size: .8em;
+    }
+}
+
+/* ********* hero section css end ***************** */
+
+/* contact section css started  */
+    @media only screen and (max-width:600px){
+        .contact-divider{
+            flex-direction: column;
+        }
+
+        .contact-form{
+            width: 100%;
+            height: 15vh;
+        }
+
+        .contact-details{
+            width: 100%;
+            height: 15vh;
+        }
+    }
+/* contact section css end  */
+
+
+/* background image section css start  */
+    @media only screen and (max-width:600px){
+        .bg-image{
+            height:25vh;
+            margin-top: 20px;
+        }
+    }
+/* background image section css end  */

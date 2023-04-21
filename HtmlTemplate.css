@@ -1,0 +1,241 @@
+/* *********** for body style start ******* */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ************* for body style end ************** */
+
+
+
+/* ************** for navbar style start ****************** */
+
+navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 20px 20px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    background-color: gray;
+}
+
+i{
+    margin-right: auto;
+    padding: 20px;
+    color: white;
+}
+
+i:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+
+/* ************** for navbar style end *********************** */
+
+
+
+/* ************** for hero section style start ************ */
+.hero-bg{
+    background: url('https://www.w3schools.com/w3images/chicago.jpg');
+    width: 100% !important;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-bg{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-h1,.hero-p{
+    color:white;
+}
+
+.hero-h1{
+    text-align: center;
+}
+/* ************** for hero section style end ****************** */
+
+
+/* *************** for the band section style start *********** */
+.the-band{
+    max-width: 800px;
+    margin: auto;
+    /* padding-top: 40px; */
+    padding: 20px;
+}
+
+.band-h1>h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.band-h3>h3{
+    text-align: center;
+    line-height: 70px;
+    color: gray;
+}
+
+.band-p>p{
+    text-align: justify;
+}
+
+.cards-data{    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    padding-top: 20px;
+}
+
+.cards-data .data>img{
+    width: 100%;
+}
+
+.cards-data p{
+    text-align: center;
+}
+
+/* ************** for the band section style end ****************** */
+
+
+/* ************** tour dates section style start *************** */
+
+#hell{
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.tour-main{
+    /* background-color: black; */
+    max-width: 980px;
+    margin: auto;
+}
+
+.tour-headings{
+    padding-top: 70px;
+}
+
+.tour-headings h1{
+    color: white !important;
+    text-align: center;
+}
+.tour-headings p{
+    color: gray !important;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.year{
+    padding-top: 30px;
+}
+
+.year ul{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#end{
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+    border-radius: 50%;
+}
+.data-img>img{
+    width: 100%;
+}
+
+.tour-cards{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.tour-data{
+    background-color: whitesmoke;
+}
+
+
+/* **************** tour dates section style end *************** */
+
+
+/* contact section style start  */
+    .contact-headings:first-child{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .contact-details{
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-form{
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-divider{
+        width: 100%;
+        display: flex;
+    }
+    
+/* contact section style end  */
+
+
+/* background image section style start  */
+.bg-image{
+    background: url('https://www.w3schools.com/w3images/map.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+/* background image section style end  */
+
+
